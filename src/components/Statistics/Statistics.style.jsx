@@ -5,7 +5,7 @@ export const StatSection = styled.section`
   flex-direction: column;
   align-items: center;
   max-width: 406px;
-  background-color: rgb(161, 157, 157);
+  
   box-shadow: 1px 1px 1px 1px #504e4e;
   margin-left: auto;
   margin-right: auto;
