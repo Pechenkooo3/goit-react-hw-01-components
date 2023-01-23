@@ -1,12 +1,13 @@
 import PropTypes from "prop-types";
-import { StatElem } from './StatElem';
+import { StatElem } from '../StatElem/StatElem';
+import { StatData } from "./StatList.style";
 
 export const StatList = ({stats}) => {
-    return (<div>
+    return <StatData>
       {stats.map(stat => (
         <StatElem key={stat.id} stat={stat} />
       ))}
-    </div>)
+    </StatData>
 };
 
 StatList.propTypes = {

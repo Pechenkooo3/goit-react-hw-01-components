@@ -1,13 +1,12 @@
 import PropTypes from 'prop-types';
-
+import {Elem} from './StatElem.style'
 
 export const StatElem = ({ stat: { label, percentage } }) => {
-  return (
-    <span>
-      <span>{label} </span>
-      <span>{percentage}%</span>
-    </span>
-  );
+  return ( <Elem>
+    <span>{label} </span>
+    <span>{percentage}%</span>
+  </Elem>
+  )
 };
 
 StatElem.propTypes = {
