@@ -27,7 +27,7 @@ export const Profile = ({ username, avatar, tag, location, stats }) => {
             </StatsItem>
              <StatsItem>
                 <StatsLabel>views</StatsLabel>
-                <spaStatsQuantityn>{stats.views }</spaStatsQuantityn>
+                <StatsQuantity>{stats.views }</StatsQuantity>
             </StatsItem>
              <StatsItem>
                 <StatsLabel>likes</StatsLabel>
